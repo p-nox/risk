@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #28252e;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.WinnerController">
+   <children>
+      <Label layoutX="9.0" layoutY="6.0" prefHeight="55.0" prefWidth="150.0" text="VICTORY" textFill="#066ed6" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="2.0">
+         <font>
+            <Font name="Calibri Bold" size="48.0" />
+         </font></Label>
+      <Button fx:id="okButton" layoutX="48.0" layoutY="67.0" mnemonicParsing="false" onAction="#okButton" prefHeight="34.0" prefWidth="105.0" styleClass="OkButton" stylesheets="@../GuiStyle.css" text="OK" AnchorPane.bottomAnchor="10.0">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

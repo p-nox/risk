@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="170.0" prefWidth="250.0" style="-fx-background-color: #28252e;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MessageController">
+   <children>
+      <Label fx:id="fortifyLabel" layoutX="77.0" layoutY="8.0" prefHeight="40.0" prefWidth="98.0" text="FORTIFY" textFill="WHITE" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font></Label>
+      <Button fx:id="troopLabel" layoutX="123.0" layoutY="66.0" mnemonicParsing="false" onAction="#fortify" prefHeight="46.0" prefWidth="61.0" styleClass="OkButton" stylesheets="@../GuiStyle.css" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="94.0">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="countryLabelF" alignment="CENTER" layoutY="45.0" prefHeight="40.0" prefWidth="250.0" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font>
+      </Label>
+      <Slider fx:id="slider" layoutX="38.0" layoutY="82.0" max="50.0" prefHeight="34.0" prefWidth="174.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" />
+   </children>
+</AnchorPane>

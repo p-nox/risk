@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #28252e;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MessageController">
+    <children>
+        <Label fx:id="conquerLabel" layoutX="32.0" layoutY="14.0" prefHeight="41.0" prefWidth="250.0" text="YOU HAVE CONQUER" textFill="WHITE" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="10.0">
+            <font>
+                <Font name="Calibri Bold" size="28.0" />
+            </font></Label>
+        <Button fx:id="troopLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="123.0" layoutY="107.0" mnemonicParsing="false" onAction="#fortify" prefHeight="41.0" prefWidth="71.0" styleClass="OkButton" stylesheets="@../GuiStyle.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="116.0" AnchorPane.rightAnchor="113.0">
+            <font>
+                <Font name="Calibri Bold" size="24.0" />
+            </font></Button>
+        <Label fx:id="countryLabelC" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" graphicTextGap="0.0" layoutX="1.0" layoutY="51.0" prefHeight="41.0" prefWidth="300.0" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font name="Calibri Bold" size="28.0" />
+            </font>
+        </Label>
+        <Slider fx:id="slider" layoutX="64.0" layoutY="100.0" max="50.0" prefHeight="34.0" prefWidth="174.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+
+    </children>
+</AnchorPane>
