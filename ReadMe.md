@@ -70,7 +70,7 @@ risk_boardgame/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/risk_boardgame.git
+git clone [https://github.com/yourusername/risk_boardgame.git](https://github.com/p-nox/risk.git)
 cd risk_boardgame
 ```
 
